@@ -1,0 +1,13 @@
+{
+  "name": "easy-generator-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd api && npm install && npm run build && cd .. && cd client && npm install && npm run build",
+    "start": "cd api && npm run start:prod"  
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
