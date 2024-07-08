@@ -17,6 +17,8 @@ Ensure MongoDB is set up and running locally. Configure the following environmen
 ```bash
 MONGO_SRV=
 MONGO_DB=
+JWT_SECRET=
+JWT_EXPIRATION_TIME=
 ```
 Set up the API base URL for the frontend. Configure the following environment variable:
 
