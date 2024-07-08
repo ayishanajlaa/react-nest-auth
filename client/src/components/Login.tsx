@@ -60,7 +60,7 @@ const Login = () => {
         </h1>
 
         <h2 className="text-2xl font-semibold mt-8 mb-6 text-gray-700">
-          Login Up
+          Login
         </h2>
       <Formik
         initialValues={initialValues}
@@ -104,15 +104,8 @@ const Login = () => {
               type="submit"
               className="w-full py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
             >
-              Sign Up
+              Login
             </button>
-            {/* <button
-              type="submit"
-              disabled={isSubmitting} // Disable the button while submitting
-              className={`w-full py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 ${isSubmitting ? 'opacity-50 cursor-not-allowed' : ''}`}
-            >
-              {isSubmitting ? 'Signing up...' : 'Sign Up'}
-            </button> */}
           </Form>
         )}
       </Formik>

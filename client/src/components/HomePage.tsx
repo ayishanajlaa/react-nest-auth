@@ -27,7 +27,7 @@ const HomePage = () => {
 
   const logOutHandler = () => {
     sessionStorage.removeItem("token");
-    navigate("/");
+    navigate("/login");
   };
 
   return (
